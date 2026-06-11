@@ -1,0 +1,66 @@
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  color: hotpink;
+  text-align: center;
+}
+body{
+  margin: 0;
+  min-height: 100vh;
+  background-image: url("cute.things.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+#calculator{
+  margin: 40px auto;
+  width: 300px;
+  background-color: purple;
+  border-radius: 20px;
+  max-width: 600px;
+  overflow: hidden;
+  transform: scale(1.0);
+  transform-origin: center;
+}
+  
+#display{
+  width: 100%;
+  height: 90px;
+  font-size: 5rem;
+  border: none;
+  text-align: left;
+  background-color: mediumpurple;
+  color: white;
+}
+#keys{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+  padding: 20px;
+}
+button{
+  width: 50px;
+  height: 50px ;
+  border-radius: 50px;
+  border: none;
+  background-color: mediumpurple;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+button:hover{
+  background-color: #7B68EE
+}
+button:active{
+background-color:#A06FE8;
+}
+.operator-btn{
+  background-color: #E75480;
+}
+.operator-btn:hover{
+  background-color: #FFC0CB ;
+}
+.operator-btn:active{
+  background-color: #FFB6E5;
+  }
